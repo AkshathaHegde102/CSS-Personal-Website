@@ -1,0 +1,158 @@
+body{
+    background-color: #17102A;
+}
+
+
+
+#title {
+    background-image: url('./images/Space3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 248, 248);
+    display: block;
+   }
+.title-cont{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+    margin: 50px auto 0 auto;
+}
+.rowtitle{
+    padding-top: 10%;
+    display: flex;
+    color: #e4bae5;
+}
+
+#profile {
+    background-color: #17102A;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.prof-cont{
+    color: #e4bae5;
+    padding-top: 20vh;
+}
+.profile{
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.para{
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+#skills {
+    background-color: #17102A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 248, 248);
+}
+.sk-cont{
+    color: #e4bae5;
+    padding: 5vh;
+}
+#sk-heading{
+    color: rgb(255, 248, 248);
+    text-align: center;
+}
+.skillpics{
+    border-radius: 50%;
+    height:75px;
+}
+.skillrow{
+    color: #e4bae5;
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.left{
+    align-items: end;
+}
+.right{
+    padding-top: 5px;
+    align-content: start;
+}
+
+@media (min-width: 768px) {
+    .skillrow{
+        padding-top: 10vh;
+        text-align: center;
+    }
+    
+    .right{
+        align-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .sk-cont{
+        padding: 5vh;
+        text-align: center;
+    }
+    #sk-heading{
+        padding-bottom: 7vh;
+    }
+    .left{
+        padding-bottom: 2vh;
+    }
+    .right{
+        padding-bottom: 5vh;
+    }
+}
+
+
+#contact {
+    background-color: #17102A;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 248, 248);
+}
+.container-contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p-cont{
+    color: #e4bae5;
+    text-align: center;
+}
+
+#footer{
+    background-color: #e4bae5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.linkfooter{
+    margin: 10px 20px;
+    color: #17102A;
+}
+
+   
